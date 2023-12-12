@@ -12,8 +12,10 @@ app.use(cors());
 app.use("/auth", userRouter);
 app.use("/recipes", recipesRouter);
 
+
+//WoxLvKhJxNiOMOcd
 mongoose.connect(
-    "mongodb+srv://user123:Password123Tech@test.m6cb1nv.mongodb.net/recipetest?retryWrites=true&w=majority",
+    "mongodb+srv://as2020323:WoxLvKhJxNiOMOcd@recipe.ix4wygu.mongodb.net/?retryWrites=true&w=majority",
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
